@@ -58,7 +58,7 @@ export default class App extends Component {
 
 
   handleUpload=(  )=>{
-    fetch('http://d3cd2dff.ngrok.io/api/upload',{
+    fetch('http://09983f20.ngrok.io/upload',{
       method: 'POST',  
       body:this.state.data
     })
